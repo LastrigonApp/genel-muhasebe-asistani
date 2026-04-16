@@ -1,60 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy / Gizlilik Politikası - Lastrigon App</title>
+    <title>Privacy Policy / Gizlilik Politikası - Genel Muhasebe Asistanı</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 20px; }
-        h1, h2, h3 { color: #333; margin-top: 30px; }
-        h1 { border-bottom: 2px solid #333; padding-bottom: 10px; }
-        .language-separator { border-top: 5px solid #007BFF; margin: 50px 0; padding-top: 20px; }
-        /* Style for the Turkish section to visually separate */
-        .turkish-section { background-color: #f9f9f9; padding: 20px; border-radius: 8px; }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.65;
+            max-width: 860px;
+            margin: 40px auto;
+            padding: 20px;
+            color: #222;
+        }
+        h1, h2, h3 { color: #333; margin-top: 28px; }
+        h1 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .language-separator {
+            border-top: 5px solid #007BFF;
+            margin: 52px 0;
+            padding-top: 20px;
+        }
+        .turkish-section {
+            background-color: #f9f9f9;
+            padding: 22px;
+            border-radius: 8px;
+        }
+        .note {
+            background: #f2f8ff;
+            border-left: 4px solid #007BFF;
+            padding: 14px 16px;
+            margin: 18px 0;
+            border-radius: 6px;
+        }
+        code {
+            background: #f1f1f1;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+        ul { padding-left: 22px; }
     </style>
 </head>
 <body>
 
     <h1>🛡️ Privacy Policy</h1>
 
-    <p><strong>Effective Date: [27/11/2025]</strong> </p>
-    <p>We, **Lastrigon App** (hereinafter referred to as the "Application" or "We"), place great importance on the privacy of our users. This Privacy Policy explains which information is **NOT collected** by our mobile application ("Genel Muhasebe Asistanı"), how it is used, and how it is shared.</p>
+    <p><strong>Effective Date: 16/04/2026</strong></p>
+    <p>
+        This Privacy Policy explains how <strong>Genel Muhasebe Asistanı</strong>, developed by <strong>Lastrigon App</strong>
+        ("Application", "App", "we", "us"), may process information when you use the mobile application.
+        The Application has recently introduced leaderboard, mini tests, profile-based progress tracking,
+        reminder notifications, analytics, ads, and in-app update features. For this reason, this policy has been
+        updated to describe these functions clearly and transparently.
+    </p>
 
-    <h2>🚫 Information Collection and Use</h2>
+    <div class="note">
+        Core educational features of the Application can be used without creating a classic account. However,
+        some optional features such as leaderboard and cloud-based score tracking may require Google Sign-In.
+    </div>
 
-    <p>Our Application is designed to function without collecting any personal user data. We do not require any registration or personal information to use the core features of the app.</p>
+    <h2>1. Information We May Process</h2>
 
-    <h3>What We DO NOT Collect:</h3>
+    <h3>1.1. Information Stored Locally on the Device</h3>
+    <p>The Application may store certain usage and progress data locally on your device, such as:</p>
     <ul>
-        <li><strong>Personal Identifiable Information (PII):</strong> We do not collect names, email addresses, phone numbers, location data, or unique device identifiers.</li>
-        <li><strong>Financial Information:</strong> We do not collect, store, or process any financial or payment information.</li>
-        <li><strong>User Content:</strong> The data entered by the user (e.g., calculations, planning data) is stored **only locally on the user's device** and is not transmitted to our servers or any external party.</li>
+        <li>lesson/module progress,</li>
+        <li>selected mini test profile,</li>
+        <li>mini test completion states,</li>
+        <li>best correct answer counts,</li>
+        <li>profile-based solve counts,</li>
+        <li>last app open date,</li>
+        <li>notification pause state and reminder-related preferences.</li>
     </ul>
+    <p>
+        This local data is used to provide progress indicators, remember your preferences, and personalize the
+        in-app learning experience.
+    </p>
 
-    <p><strong>In summary, the Application does not transmit any user data to our servers or any external parties for the purpose of app functionality.</strong></p>
-
-    <h2>⚙️ Third-Party Services and Data Handling</h2>
-
-    <p>The Application utilizes services provided by Google to ensure proper functionality, performance, and compliance with the Google Play Store standards. These services may automatically process certain information (such as crash reports or application usage statistics) that is necessary for their operation.</p>
-
+    <h3>1.2. Information Processed for Leaderboard and Sign-In</h3>
+    <p>
+        If you choose to use the leaderboard feature, the Application may use Google Sign-In and Firebase services.
+        In this case, the following data may be processed and stored for leaderboard functionality:
+    </p>
     <ul>
-        <li><strong>Google Play Services:</strong> Data related to app licensing, performance monitoring, and crash reporting may be processed by Google in accordance with the <strong>Google Privacy Policy</strong>.</li>
+        <li>Google account authentication result,</li>
+        <li>your chosen display name / nickname,</li>
+        <li>your e-mail address,</li>
+        <li>your score-related data (for example leaderboard and point totals).</li>
     </ul>
+    <p>
+        This processing is limited to enabling sign-in, creating or updating your leaderboard record,
+        and showing score-based ranking features.
+    </p>
 
-    <p><strong>We do not access, control, or store any of the data collected through these third-party services.</strong> Please refer to the respective third party's privacy policy for details on their data processing activities.</p>
-    
-    <p>Link to the Google Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+    <h3>1.3. Analytics and Performance Information</h3>
+    <p>
+        The Application uses <strong>Firebase Analytics</strong>. Certain app events may be logged to understand
+        app usage and technical performance. This may include events related to update prompts,
+        update acceptance/cancellation, and update installation flow.
+    </p>
 
-    <h2>🔄 Changes to This Privacy Policy</h2>
+    <h3>1.4. Advertising</h3>
+    <p>
+        The Application uses <strong>Google Mobile Ads / AdMob</strong> to display advertisements.
+        Google may process certain technical data under its own privacy terms to provide, measure,
+        and improve advertising services.
+    </p>
 
-    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+    <h3>1.5. Reminder Notifications</h3>
+    <p>
+        If notification permission is granted, the Application may schedule daily study reminders.
+        Reminder content may be personalized based on app activity, such as whether you solved mini tests,
+        which profile you used most, whether a profile has been completed, or how long you have been inactive.
+    </p>
 
-    <h2>📧 Contact Us</h2>
+    <h3>1.6. In-App Updates</h3>
+    <p>
+        The Application may use Google Play's in-app update system. After the app has been open for a certain period,
+        an in-app update prompt may be shown. If an update is downloaded, you may later be prompted to install it.
+    </p>
 
-    <p>If you have any questions about this Privacy Policy, please contact us:</p>
+    <h2>2. What We Do Not Collect by Default</h2>
+    <p>For normal educational use of the core app, we do not require:</p>
     <ul>
-        <li>By email: <strong>lastrigon@gmail.com</strong></li>
-        
+        <li>payment card information,</li>
+        <li>bank account information,</li>
+        <li>home address,</li>
+        <li>phone number,</li>
+        <li>traditional registration with a standalone username/password system.</li>
+    </ul>
+    <p>
+        However, if you choose to use optional features such as leaderboard, some sign-in related data
+        (such as e-mail address and chosen display name) may be processed through Google/Firebase services.
+    </p>
+
+    <h2>3. Third-Party Services</h2>
+    <p>The Application may use the following third-party services:</p>
+    <ul>
+        <li>Google Play Services</li>
+        <li>Google Play In-App Updates</li>
+        <li>Firebase Authentication</li>
+        <li>Firebase Firestore</li>
+        <li>Firebase Analytics</li>
+        <li>Google Mobile Ads (AdMob)</li>
+    </ul>
+    <p>
+        These services may process data under their own privacy terms. We do not control the full internal
+        processing performed by these providers.
+    </p>
+    <p>
+        Google Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a>
+    </p>
+
+    <h2>4. Notifications and Inactivity Logic</h2>
+    <p>
+        The Application may avoid sending the same reminder type multiple times on the same day.
+        In cases of extended inactivity, reminders may be paused and later resumed when the user returns to the app.
+    </p>
+
+    <h2>5. Data Security</h2>
+    <p>
+        We take reasonable steps to support secure use of the Application and rely on established third-party
+        platforms such as Google Play and Firebase for some technical functions. However, no digital system can be
+        guaranteed to be 100% secure at all times.
+    </p>
+
+    <h2>6. Changes to This Privacy Policy</h2>
+    <p>
+        We may update this Privacy Policy from time to time. Any updated version becomes effective when it is
+        published.
+    </p>
+
+    <h2>7. Contact Us</h2>
+    <p>If you have questions about this Privacy Policy, you may contact us at:</p>
+    <ul>
+        <li><strong>lastrigon@gmail.com</strong></li>
     </ul>
 
     <div class="language-separator"></div>
@@ -62,44 +184,137 @@
 
         <h1>🛡️ Gizlilik Politikası</h1>
 
-        <p><strong>Yürürlük Tarihi: [27/11/2025]</strong> </p>
-        <p>Biz, **Lastrigon App** (bundan böyle "Uygulama" veya "Biz" olarak anılacaktır), kullanıcılarımızın gizliliğine büyük önem vermekteyiz. Bu Gizlilik Politikası, mobil uygulamamız ("Genel Muhasebe Asistanı") aracılığıyla hangi bilgilerin **toplanmadığını**, nasıl kullanıldığını ve paylaşıldığını açıklamaktadır.</p>
+        <p><strong>Yürürlük Tarihi: 16/04/2026</strong></p>
+        <p>
+            Bu Gizlilik Politikası, <strong>Lastrigon App</strong> tarafından geliştirilen <strong>Genel Muhasebe Asistanı</strong>
+            uygulamasını kullanırken hangi verilerin işlenebileceğini açıklamak için hazırlanmıştır.
+            Uygulamaya son dönemde puan/sıralama sistemi, mini testler, profil bazlı ilerleme,
+            ders hatırlatma bildirimleri, reklam, analiz ve uygulama içi güncelleme özellikleri eklendiği için,
+            bu politika da mevcut uygulama davranışını şeffaf biçimde yansıtacak şekilde güncellenmiştir.
+        </p>
 
-        <h2>🚫 Bilgi Toplama ve Kullanımı</h2>
+        <div class="note">
+            Uygulamanın temel eğitim özellikleri klasik bir hesap oluşturmadan kullanılabilir. Ancak sıralama gibi bazı
+            isteğe bağlı özellikler için Google ile giriş yapılması gerekebilir.
+        </div>
 
-        <p>Uygulamamız, herhangi bir kişisel kullanıcı verisi toplamadan çalışmak üzere tasarlanmıştır. Uygulamanın temel özelliklerini kullanmak için herhangi bir kayıt veya kişisel bilgiye ihtiyaç duymamaktayız.</p>
+        <h2>1. İşleyebileceğimiz Veriler</h2>
 
-        <h3>Toplanmayan Veriler:</h3>
+        <h3>1.1. Cihazda Yerel Olarak Saklanan Veriler</h3>
+        <p>Uygulama, aşağıdaki bazı kullanım ve ilerleme verilerini cihaz üzerinde yerel olarak saklayabilir:</p>
         <ul>
-            <li><strong>Kişisel Tanımlayıcı Bilgiler (PII):</strong> İsim, e-posta adresi, telefon numaraları, konum verileri veya benzersiz cihaz tanımlayıcıları gibi hiçbir kişisel bilgiyi toplamıyoruz.</li>
-            <li><strong>Finansal Bilgiler:</strong> Herhangi bir finansal veya ödeme bilgisini toplamıyor, saklamıyor veya işlemiyoruz.</li>
-            <li><strong>Kullanıcı İçeriği:</strong> Kullanıcı tarafından girilen veriler (örneğin, hesaplamalar, planlama verileri) **yalnızca kullanıcının cihazında yerel olarak saklanır** ve sunucularımıza veya herhangi bir harici tarafa aktarılmaz.</li>
+            <li>ders/modül ilerlemeleri,</li>
+            <li>seçilen mini test profili,</li>
+            <li>mini test tamamlama durumları,</li>
+            <li>en iyi doğru sayıları,</li>
+            <li>profil bazlı çözüm sayıları,</li>
+            <li>uygulamanın son açılma zamanı,</li>
+            <li>bildirim duraklatma durumu ve hatırlatma tercihleri.</li>
         </ul>
+        <p>
+            Bu yerel veriler; ilerleme göstergelerini sunmak, tercihleri hatırlamak ve uygulama içi öğrenme deneyimini
+            kişiselleştirmek amacıyla kullanılır.
+        </p>
 
-        <p><strong>Özetle, Uygulama işlevselliği amacıyla sunucularımıza veya herhangi bir harici tarafa herhangi bir kullanıcı verisi iletmemektedir.</strong></p>
-
-        <h2>⚙️ Üçüncü Taraf Hizmetleri ve Veri İşleme</h2>
-
-        <p>Uygulama, doğru işlevsellik, performans ve Google Play Store standartlarına uygunluk sağlamak için Google tarafından sağlanan hizmetleri kullanmaktadır. Bu hizmetler, kendi işleyişleri için gerekli olan bazı bilgileri (çökme raporları veya uygulama kullanım istatistikleri gibi) otomatik olarak işleyebilir.</p>
-
+        <h3>1.2. Sıralama ve Giriş İçin İşlenen Veriler</h3>
+        <p>
+            Sıralama özelliğini kullanmak isteyen kullanıcılar için uygulama Google ile giriş ve Firebase hizmetlerini
+            kullanabilir. Bu durumda aşağıdaki veriler işlenebilir ve sıralama işlevi kapsamında saklanabilir:
+        </p>
         <ul>
-            <li><strong>Google Play Hizmetleri:</strong> Uygulama lisansı, performans izleme ve çökme raporlaması ile ilgili veriler, **Google'ın Gizlilik Politikası** doğrultusunda Google tarafından işlenebilir.</li>
+            <li>Google hesabı ile kimlik doğrulama sonucu,</li>
+            <li>kullanıcının seçtiği görüntü adı / takma adı,</li>
+            <li>e-posta adresi,</li>
+            <li>puan ve sıralama ile ilgili veriler.</li>
         </ul>
+        <p>
+            Bu veriler; giriş işlemini gerçekleştirmek, kullanıcı sıralama kaydını oluşturmak veya güncellemek,
+            ve puana dayalı sıralama ekranını göstermek amacıyla işlenir.
+        </p>
 
-        <p><strong>Bu üçüncü taraf hizmetler aracılığıyla toplanan hiçbir veriye erişmeyiz, bu verileri kontrol etmeyiz veya saklamayız.</strong> Bu kapsamdaki veri işleme faaliyetleri için lütfen Google'ın ilgili Gizlilik Politikası'nı inceleyiniz.</p>
-        
-        <p>Google Gizlilik Politikası Bağlantısı: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+        <h3>1.3. Analitik ve Performans Verileri</h3>
+        <p>
+            Uygulama <strong>Firebase Analytics</strong> kullanır. Uygulama kullanımı ve teknik performansı anlamak için,
+            uygulama içi güncelleme gösterimi, güncelleme kabul/iptal durumu ve yükleme akışı gibi bazı olaylar
+            analiz amacıyla kaydedilebilir.
+        </p>
 
-        <h2>🔄 Gizlilik Politikasındaki Değişiklikler</h2>
+        <h3>1.4. Reklam Gösterimi</h3>
+        <p>
+            Uygulama reklam göstermek için <strong>Google Mobile Ads / AdMob</strong> kullanır.
+            Google, reklam hizmetlerini sunmak, ölçmek ve iyileştirmek amacıyla kendi gizlilik politikaları kapsamında
+            bazı teknik verileri işleyebilir.
+        </p>
 
-        <p>Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Yeni politikayı bu sayfada yayımlayarak size bildireceğiz. Değişiklikler için periyodik olarak bu Gizlilik Politikasını incelemeniz önerilir. Bu Gizlilik Politikası'ndaki değişiklikler, bu sayfada yayınlandığı an itibarıyla yürürlüğe girer.</p>
+        <h3>1.5. Hatırlatma Bildirimleri</h3>
+        <p>
+            Bildirim izni verilmesi halinde uygulama günlük ders hatırlatmaları planlayabilir. Bu hatırlatmalar;
+            mini test çözülüp çözülmediğine, en çok hangi profilin kullanıldığına, bir profilin tamamlanıp tamamlanmadığına
+            veya kullanıcının ne kadar süredir uygulamaya girmediğine göre kişiselleştirilebilir.
+        </p>
 
-        <h2>📧 İletişim</h2>
+        <h3>1.6. Uygulama İçi Güncelleme</h3>
+        <p>
+            Uygulama, Google Play'in uygulama içi güncelleme sistemini kullanabilir.
+            Uygulama belirli bir süre açık kaldıktan sonra esnek güncelleme akışı gösterilebilir;
+            güncelleme indirildiğinde kullanıcıya yükleme önerisi sunulabilir.
+        </p>
 
-        <p>Bu Gizlilik Politikası hakkında herhangi bir sorunuz varsa, lütfen aşağıdaki yollarla bizimle iletişime geçin:</p>
+        <h2>2. Varsayılan Olarak Toplamadığımız Veriler</h2>
+        <p>Uygulamanın temel eğitim amaçlı kullanımı için aşağıdaki verileri talep etmeyiz:</p>
         <ul>
-            <li>E-posta adresmiz: <strong>lastrigon@gmail.com</strong></li>
-           
+            <li>ödeme kartı bilgileri,</li>
+            <li>banka hesap bilgileri,</li>
+            <li>ev adresi,</li>
+            <li>telefon numarası,</li>
+            <li>bağımsız kullanıcı adı/şifre ile klasik hesap kaydı.</li>
+        </ul>
+        <p>
+            Ancak sıralama gibi isteğe bağlı özellikler kullanıldığında, e-posta adresi ve seçilen görüntü adı gibi
+            girişe bağlı bazı veriler Google/Firebase hizmetleri üzerinden işlenebilir.
+        </p>
+
+        <h2>3. Üçüncü Taraf Hizmetleri</h2>
+        <p>Uygulama aşağıdaki üçüncü taraf hizmetlerini kullanabilir:</p>
+        <ul>
+            <li>Google Play Services</li>
+            <li>Google Play In-App Updates</li>
+            <li>Firebase Authentication</li>
+            <li>Firebase Firestore</li>
+            <li>Firebase Analytics</li>
+            <li>Google Mobile Ads (AdMob)</li>
+        </ul>
+        <p>
+            Bu hizmetler, kendi gizlilik politikaları ve veri işleme koşulları kapsamında veri işleyebilir.
+            Bu sağlayıcıların tüm iç işleyişini doğrudan kontrol etmiyoruz.
+        </p>
+        <p>
+            Google Gizlilik Politikası: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a>
+        </p>
+
+        <h2>4. Bildirim ve İnaktiflik Mantığı</h2>
+        <p>
+            Uygulama aynı bildirim türünü aynı gün içinde tekrar göndermemeye çalışabilir.
+            Uzun süre inaktif kalan kullanıcılar için bildirimler geçici olarak duraklatılabilir ve kullanıcı uygulamaya
+            geri döndüğünde yeniden aktif hale getirilebilir.
+        </p>
+
+        <h2>5. Veri Güvenliği</h2>
+        <p>
+            Uygulamanın güvenli şekilde kullanılabilmesi için makul önlemler alınmakta ve bazı teknik işlevlerde
+            Google Play ile Firebase gibi yerleşik altyapılardan yararlanılmaktadır. Bununla birlikte hiçbir dijital
+            sistem için her koşulda yüzde yüz güvenlik garantisi verilemez.
+        </p>
+
+        <h2>6. Gizlilik Politikasındaki Değişiklikler</h2>
+        <p>
+            Bu gizlilik politikası zaman zaman güncellenebilir. Güncellenmiş sürüm yayımlandığı anda yürürlüğe girer.
+        </p>
+
+        <h2>7. İletişim</h2>
+        <p>Bu Gizlilik Politikası ile ilgili sorularınız için bize şu adresten ulaşabilirsiniz:</p>
+        <ul>
+            <li><strong>lastrigon@gmail.com</strong></li>
         </ul>
     </div>
 
